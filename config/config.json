@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "bsup-doc-gen-1-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/bsupDocGen1/BsupDocGen1WebPart.js",
+          "manifest": "./src/webparts/bsupDocGen1/BsupDocGen1WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BsupDocGen1WebPartStrings": "lib/webparts/bsupDocGen1/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "BSUP_DocPortal_v1-client-side-solution",
+    "id": "91c1198e-2158-4e96-b7e1-d2644e2358d4",
+    "version": "1.0.3.6",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Portal sp-fx-4 description"
+      },
+      "longDescription": {
+        "default": "Portal sp-fx-4 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Portal sp-fx-4 Feature",
+        "description": "The feature that activates elements of the sp-fx-4 solution.",
+        "id": "10d03137-926b-409e-bdb7-30c79d1ab11a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/BSUP-DocPortal-v1.sppkg"
+  }
+}

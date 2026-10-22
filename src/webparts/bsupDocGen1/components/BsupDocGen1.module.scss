@@ -1,0 +1,96 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.bsupDocGen1 {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  };
+  width: 100%;
+  //width: 800px;
+}
+
+.welcome {
+  text-align: left;
+}
+
+.mas_left {float:left}
+.mas_right {float:right}
+.mas_clear {clear:both}
+
+.buttonFourteen {
+  background-image: linear-gradient(#f7f8fa ,#e7e9ec);
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  box-shadow: rgba(255,255,255,.6) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",Arial,sans-serif;
+  font-size: 14px;
+  height: 29px;
+  font-size: 13px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 11px;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.buttonFourteen:active {
+  border-bottom-color: #a2a6ac;
+}
+
+.buttonFourteen:active:hover {
+  border-bottom-color: #a2a6ac;
+}
+
+.buttonFourteen:hover {
+  border-color: #a2a6ac #979aa1 #82858a;
+}
+
+.buttonFourteen:focus {
+  border-color: #e77600;
+  box-shadow: rgba(228, 121, 17, .5) 0 0 3px 2px;
+  outline: 0;
+}
+
+
+.welcomeImage {
+  width: 100%;
+  //max-width: 420px;
+}
+
+.LogoImage {
+  width: 256px;
+  //max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.Test {
+  background: rgb(199, 201, 199);  
+  background-color: rgb(199, 201, 199);  
+}
