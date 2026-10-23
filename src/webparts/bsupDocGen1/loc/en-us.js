@@ -12,6 +12,7 @@ define([], function() {
     "AppOfficeEnvironment": "The app is running in office.com",
     "AppOutlookEnvironment": "The app is running in Outlook",
     "BSUPAdminEmailFieldLabel": "Admin Email:",
-    "BSUPManagerEmailFieldLabel": "Managers Email"
+    "BSUPManagerEmailFieldLabel": "Managers Email",
+    "BSUPAdminSiteFieldLabel": "Admin Site Name"
   }
 });

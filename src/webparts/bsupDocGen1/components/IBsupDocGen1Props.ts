@@ -8,4 +8,5 @@ export interface IBsupDocGen1Props {
   context:WebPartContext;
   adminEmailWbProb:string;  
   managerEmailWbProb:string;
+  targetAdminSiteWbProb?: string;
 }

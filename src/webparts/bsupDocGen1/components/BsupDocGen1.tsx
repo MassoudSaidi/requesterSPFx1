@@ -259,8 +259,10 @@ export default class BsupDocGen1 extends React.Component<IBsupDocGen1Props, MySt
 
   readonly targetDocumentLibrary: string = 'BlackStone Document Library';
   
-  readonly targetDocumentSite: string = 'BlackStonePortalAdmin2';
-  //readonly targetDocumentSite: string = 'BlackStoneDocPortalAdmin';
+  //readonly targetDocumentSite: string = 'BlackStonePortalAdmin2';
+  private get targetDocumentSite(): string {
+    return this.props.targetAdminSiteWbProb?.trim() || 'BlackStoneDocPortalAdmin';
+  }
   
   
   //readonly targetTenant: string = '3gxtbg';

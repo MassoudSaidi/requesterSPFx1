@@ -12,6 +12,7 @@ declare interface IBsupDocGen1WebPartStrings {
   AppOutlookEnvironment: string;
   BSUPAdminEmailFieldLabel: string;
   BSUPManagerEmailFieldLabel: string;
+  BSUPAdminSiteFieldLabel: string;
 }
 
 declare module 'BsupDocGen1WebPartStrings' {

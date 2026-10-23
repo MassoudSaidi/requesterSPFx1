@@ -38,7 +38,8 @@ export default class BsupDocGen1WebPart extends BaseClientSideWebPart<IBsupDocGe
         userDisplayName: this.context.pageContext.user.displayName,
         context: this.context,
         adminEmailWbProb: this.properties.adminEmailWbProb,
-        managerEmailWbProb: this.properties.managerEmailWbProb,    
+        managerEmailWbProb: this.properties.managerEmailWbProb,
+        targetAdminSiteWbProb: this.properties.targetAdminSiteWbProb,
       }
     );
 
@@ -124,7 +125,11 @@ export default class BsupDocGen1WebPart extends BaseClientSideWebPart<IBsupDocGe
                 }),
                 PropertyPaneTextField('managerEmailWbProb', {
                   label: strings.BSUPManagerEmailFieldLabel
-                })                              
+                }),
+                PropertyPaneTextField('targetAdminSiteWbProb', {
+                  label: strings.BSUPAdminSiteFieldLabel,
+                  description: 'Site name under /sites/ (default: BlackStoneDocPortalAdmin)'
+                })
               ]
             }
           ]
